@@ -45,7 +45,7 @@ header nav a{
   font-weight: 800;
 }
 
-header nav .nav-item i {
+/* header nav .nav-item i {
   color: #C2EBFF;
   font-size: 25px;
   transform: rotate(-45deg);
@@ -53,20 +53,25 @@ header nav .nav-item i {
   position: absolute;
   top: -5px;
   z-index: -1;
-  display: none;
-}
+} */
 
 /* header nav a:hover {
 
 } */
 
-.nav-item a:hover~nav .nav-item a {
+/* .nav-item a:hover~nav .nav-item a {
   display: inline-block;
   background-color: aqua;
-}
-header nav a:hover {
+} */
+header nav .nav-item a:hover {
   color: rgb(251, 106, 67);
   cursor: pointer;
+  background-image: url(assets/img/icone-hover.png);
+  background-size: 30px;
+  background-repeat: no-repeat ;
+  transition: 0.3s all;
+  background-position-y: center;
+  background-position-x: 10px;
 }
 
 footer {
