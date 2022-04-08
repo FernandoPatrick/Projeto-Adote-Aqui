@@ -64,10 +64,10 @@ header nav a{
   background-color: aqua;
 } */
 header nav .nav-item a:hover {
-  color: rgb(251, 106, 67);
+  color: #F8A836;
   cursor: pointer;
-  background-image: url(assets/img/icone-hover.png);
-  background-size: 30px;
+  background-image: url(assets/img/hover-nav.png);
+  background-size: 25px;
   background-repeat: no-repeat ;
   transition: 0.3s all;
   background-position-y: center;
